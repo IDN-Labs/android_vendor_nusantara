@@ -100,9 +100,6 @@ ifeq ($(USE_MICROG),true)
 include prebuilts/prebuiltapks/microg.mk
 endif # MicroG
 
-# Lineage HALs Manifest
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/nusantara/config/device_framework_matrix.xml
-
 # Lawnchair
 ifeq ($(USE_LAWNCHAIR), true)
 -include vendor/nusantara/prebuilt/Lawnchair/lawnchair.mk
