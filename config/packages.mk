@@ -6,6 +6,7 @@ PRODUCT_PACKAGES += \
     DeskClock \
     CustomDoze \
     Gallery2 \
+    GameSpace \
     QuickAccessWallet \
     messaging \
     WallpaperPicker2 \
